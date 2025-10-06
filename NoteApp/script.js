@@ -18,7 +18,6 @@ function saveNotes() {
   localStorage.setItem("notesData", JSON.stringify(data));
 }
 
-// Add a new note
 function addNote(content = "", title = "") {
   const note = document.createElement("div");
   note.classList.add("note");
@@ -34,7 +33,6 @@ function addNote(content = "", title = "") {
     <textarea class="content" placeholder="Write your note...">${content}</textarea>
   `;
 
-  // Buttons
   const saveButton = note.querySelector(".save");
   const deleteButton = note.querySelector(".trash");
 

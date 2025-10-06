@@ -1,11 +1,10 @@
-/* Basic Reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Simpler Color Scheme */
 :root {
   --primary: #007bff;
   --secondary: #6c757d;
@@ -29,7 +28,6 @@ body {
   padding: 0 20px;
 }
 
-/* Navigation */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -83,7 +81,6 @@ nav a:hover {
   color: var(--dark);
 }
 
-/* Hero Section */
 .hero {
   padding: 8rem 5% 4rem;
   min-height: 100vh;
@@ -188,7 +185,6 @@ nav a:hover {
   transform: translateY(-2px);
 }
 
-/* Sections */
 section {
   padding: 4rem 0;
 }
@@ -212,7 +208,6 @@ section h2::after {
   background-color: var(--primary);
 }
 
-/* About Section */
 .about {
   background-color: white;
 }
@@ -492,7 +487,6 @@ footer {
   padding: 2rem 0;
 }
 
-/* Responsive Design */
 @media (min-width: 768px) {
   .hero-content {
     flex-direction: row;

@@ -4,8 +4,7 @@ const navMenu = document.querySelector('nav ul');
 
 menuBtn.addEventListener('click', () => {
   navMenu.classList.toggle('active');
-  
-  // Change menu icon
+
   const icon = menuBtn.querySelector('i');
   if (navMenu.classList.contains('active')) {
     icon.classList.remove('fa-bars');
@@ -16,7 +15,6 @@ menuBtn.addEventListener('click', () => {
   }
 });
 
-// Close mobile menu when clicking on a link
 document.querySelectorAll('nav a').forEach(link => {
   link.addEventListener('click', () => {
     navMenu.classList.remove('active');
@@ -26,7 +24,6 @@ document.querySelectorAll('nav a').forEach(link => {
   });
 });
 
-// Smooth scrolling for navigation links
 document.querySelectorAll('nav a').forEach(anchor => {
   anchor.addEventListener('click', function(e) {
     e.preventDefault();
