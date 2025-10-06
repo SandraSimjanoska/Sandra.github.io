@@ -3,6 +3,10 @@
 Hey there! 👋 I’m Sandra, a web developer in training who loves creating interactive and useful web apps.
 This repository contains a collection of my JavaScript projects, including ones I built during my time at Avenga Academy and some of my personal learning projects.
 
+
+
+
+
 🚀 What’s Inside
 
 A mix of projects that helped me practice frontend fundamentals, DOM manipulation, and working with APIs:
@@ -25,6 +29,10 @@ A mix of projects that helped me practice frontend fundamentals, DOM manipulatio
 
 💼 My Portfolio – A showcase of my projects and learning journey
 
+
+
+
+
 🧠 Built With
 
 JavaScript (Vanilla)
@@ -35,9 +43,9 @@ APIs (Fetch, JSON)
 
 Projects from Avenga Academy + Personal Practice Projects
 
-🎯 My Goal
 
-To keep improving my skills in web development, explore backend technologies, and grow into a junior web developer ready to build real-world solutions 💻✨
+
+
 
 🎯 My Goal
 
